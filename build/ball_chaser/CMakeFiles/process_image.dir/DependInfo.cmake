@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ricardoxcm/RoboticsSoftwareEngineering/Project2/src/ball_chaser/src/process_image.cpp" "/home/ricardoxcm/RoboticsSoftwareEngineering/Project2/build/ball_chaser/CMakeFiles/process_image.dir/src/process_image.cpp.o"
+  "/home/workspace/WhereAmI/src/ball_chaser/src/process_image.cpp" "/home/workspace/WhereAmI/build/ball_chaser/CMakeFiles/process_image.dir/src/process_image.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,9 +17,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ricardoxcm/RoboticsSoftwareEngineering/Project2/devel/include"
-  "/opt/ros/melodic/include"
-  "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/home/workspace/WhereAmI/devel/include"
+  "/opt/ros/kinetic/include"
+  "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )
 
 # Targets to which this target links.

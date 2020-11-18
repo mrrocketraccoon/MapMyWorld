@@ -1,4 +1,4 @@
-prefix=/home/ricardoxcm/RoboticsSoftwareEngineering/Project2/install
+prefix=/home/workspace/WhereAmI/install
 
 Name: my_robot
 Description: Description of my_robot

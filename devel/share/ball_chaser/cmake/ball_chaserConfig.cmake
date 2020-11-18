@@ -67,14 +67,14 @@ set(ball_chaser_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(ball_chaser_SOURCE_PREFIX /home/ricardoxcm/RoboticsSoftwareEngineering/Project2/src/ball_chaser)
-  set(ball_chaser_DEVEL_PREFIX /home/ricardoxcm/RoboticsSoftwareEngineering/Project2/devel)
+  set(ball_chaser_SOURCE_PREFIX /home/workspace/WhereAmI/src/ball_chaser)
+  set(ball_chaser_DEVEL_PREFIX /home/workspace/WhereAmI/devel)
   set(ball_chaser_INSTALL_PREFIX "")
   set(ball_chaser_PREFIX ${ball_chaser_DEVEL_PREFIX})
 else()
   set(ball_chaser_SOURCE_PREFIX "")
   set(ball_chaser_DEVEL_PREFIX "")
-  set(ball_chaser_INSTALL_PREFIX /home/ricardoxcm/RoboticsSoftwareEngineering/Project2/install)
+  set(ball_chaser_INSTALL_PREFIX /home/workspace/WhereAmI/install)
   set(ball_chaser_PREFIX ${ball_chaser_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(ball_chaser_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/ricardoxcm/RoboticsSoftwareEngineering/Project2/devel/include " STREQUAL " ")
+if(NOT "/home/workspace/WhereAmI/devel/include " STREQUAL " ")
   set(ball_chaser_INCLUDE_DIRS "")
-  set(_include_dirs "/home/ricardoxcm/RoboticsSoftwareEngineering/Project2/devel/include")
+  set(_include_dirs "/home/workspace/WhereAmI/devel/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/ricardoxcm/RoboticsSoftwareEngineering/Project2/devel/include " ST
         message(FATAL_ERROR "Project 'ball_chaser' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'ball_chaser' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/ricardoxcm/RoboticsSoftwareEngineering/Project2/src/ball_chaser/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'ball_chaser' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/workspace/WhereAmI/src/ball_chaser/${idir}'.  ${_report}")
     endif()
     _list_append_unique(ball_chaser_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ricardoxcm/RoboticsSoftwareEngineering/Project2/devel/lib;/home/ricardoxcm/RoboticsSoftwareEngineering/Project2/devel/lib;/home/ricardoxcm/RoboticsSoftwareEngineering/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/workspace/WhereAmI/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

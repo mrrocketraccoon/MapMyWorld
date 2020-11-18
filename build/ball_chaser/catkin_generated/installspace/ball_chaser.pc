@@ -1,4 +1,4 @@
-prefix=/home/ricardoxcm/RoboticsSoftwareEngineering/Project2/install
+prefix=/home/workspace/WhereAmI/install
 
 Name: ball_chaser
 Description: Description of ball_chaser

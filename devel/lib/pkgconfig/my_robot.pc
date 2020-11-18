@@ -1,4 +1,4 @@
-prefix=/home/ricardoxcm/RoboticsSoftwareEngineering/Project2/devel
+prefix=/home/workspace/WhereAmI/devel
 
 Name: my_robot
 Description: Description of my_robot

@@ -9,7 +9,7 @@ import struct
 class DriveToTargetRequest(genpy.Message):
   _md5sum = "6aa08055c0c4aea51799f3f7164796a8"
   _type = "ball_chaser/DriveToTargetRequest"
-  _has_header = False  # flag to mark the presence of a Header object
+  _has_header = False #flag to mark the presence of a Header object
   _full_text = """float64 linear_x
 float64 angular_z
 """
@@ -32,7 +32,7 @@ float64 angular_z
     """
     if args or kwds:
       super(DriveToTargetRequest, self).__init__(*args, **kwds)
-      # message fields cannot be None, assign default values for those that are
+      #message fields cannot be None, assign default values for those that are
       if self.linear_x is None:
         self.linear_x = 0.
       if self.angular_z is None:
@@ -71,7 +71,7 @@ float64 angular_z
       (_x.linear_x, _x.angular_z,) = _get_struct_2d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e)  # most likely buffer underfill
+      raise genpy.DeserializationError(e) #most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -100,7 +100,7 @@ float64 angular_z
       (_x.linear_x, _x.angular_z,) = _get_struct_2d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e)  # most likely buffer underfill
+      raise genpy.DeserializationError(e) #most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
@@ -123,7 +123,7 @@ import struct
 class DriveToTargetResponse(genpy.Message):
   _md5sum = "2897a4bc4d7ca330e430870cfdee7314"
   _type = "ball_chaser/DriveToTargetResponse"
-  _has_header = False  # flag to mark the presence of a Header object
+  _has_header = False #flag to mark the presence of a Header object
   _full_text = """string msg_feedback
 
 """
@@ -146,7 +146,7 @@ class DriveToTargetResponse(genpy.Message):
     """
     if args or kwds:
       super(DriveToTargetResponse, self).__init__(*args, **kwds)
-      # message fields cannot be None, assign default values for those that are
+      #message fields cannot be None, assign default values for those that are
       if self.msg_feedback is None:
         self.msg_feedback = ''
     else:
@@ -191,7 +191,7 @@ class DriveToTargetResponse(genpy.Message):
         self.msg_feedback = str[start:end]
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e)  # most likely buffer underfill
+      raise genpy.DeserializationError(e) #most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -229,7 +229,7 @@ class DriveToTargetResponse(genpy.Message):
         self.msg_feedback = str[start:end]
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e)  # most likely buffer underfill
+      raise genpy.DeserializationError(e) #most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
