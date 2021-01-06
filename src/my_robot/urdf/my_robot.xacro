@@ -159,6 +159,10 @@
     </visual>
   </link>
 
+  <!--New Camera link-->
+  <link name="camera_link_optical">
+  </link>
+
 
 
   <!--Hoyuko sensor link-->
@@ -237,6 +241,12 @@
     <child link="hokuyo"/>
     <parent link="chassis"/>
     <axis xyz="0 1 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="camera_optical_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="-1.5707 0 -1.5707"/>
+    <parent link="camera_link"/>
+    <child link="camera_link_optical"/>
   </joint>
 
 </robot>
