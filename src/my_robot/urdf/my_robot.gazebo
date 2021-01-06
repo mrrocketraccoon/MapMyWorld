@@ -20,9 +20,9 @@
   </gazebo>
 
   <!--RGBD camera -->
-  <gazebo reference="camera_link">
+  <gazebo reference="camera_link_optical">
     <sensor type="depth" name="camera1">
-      <always_on>1</always_on>
+      <always_on>true</always_on>
       <update_rate>20.0</update_rate>
       <visualize>true</visualize>
       <camera>
@@ -33,6 +33,7 @@
           <format>R8G8B8</format>
         </image>
         <depth_camera>
+
         </depth_camera>
         <clip>
           <near>0.1</near>
@@ -41,13 +42,13 @@
       </camera>
       <plugin name="camera_controller" filename="libgazebo_ros_openni_kinect.so">
         <alwaysOn>true</alwaysOn>
-        <updateRate>10.0</updateRate>
+        <updateRate>0.0</updateRate>
         <cameraName>camera</cameraName>
         <frameName>camera_link_optical</frameName>
-        <imageTopicName>rgb/image_raw</imageTopicName>
-        <depthImageTopicName>depth/image_raw</depthImageTopicName>
-        <pointCloudTopicName>depth/points</pointCloudTopicName>
-        <cameraInfoTopicName>rgb/camera_info</cameraInfoTopicName>
+        <imageTopicName>/rgb/image_raw</imageTopicName>
+        <depthImageTopicName>/depth/image_raw</depthImageTopicName>
+        <pointCloudTopicName>/depth/points</pointCloudTopicName>
+        <cameraInfoTopicName>/rgb/camera_info</cameraInfoTopicName>
         <depthImageCameraInfoTopicName>depth/camera_info</depthImageCameraInfoTopicName>
         <pointCloudCutoff>0.4</pointCloudCutoff>
             <hackBaseline>0.07</hackBaseline>
