@@ -1,2 +1,2 @@
 ball_chaser:my_robot:pgm_map_creator:teleop_twist_keyboard
--DCATKIN_DEVEL_PREFIX=/home/workspace/WhereAmI/devel -DCMAKE_INSTALL_PREFIX=/home/workspace/WhereAmI/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/workspace/MapMyWorld/devel -DCMAKE_INSTALL_PREFIX=/home/workspace/MapMyWorld/install -G Unix Makefiles

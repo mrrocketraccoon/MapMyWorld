@@ -1,4 +1,4 @@
-prefix=/home/workspace/WhereAmI/devel
+prefix=/home/workspace/MapMyWorld/devel
 
 Name: teleop_twist_keyboard
 Description: Description of teleop_twist_keyboard

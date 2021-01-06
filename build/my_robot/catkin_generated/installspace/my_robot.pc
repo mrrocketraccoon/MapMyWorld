@@ -1,4 +1,4 @@
-prefix=/home/workspace/WhereAmI/install
+prefix=/home/workspace/MapMyWorld/install
 
 Name: my_robot
 Description: Description of my_robot

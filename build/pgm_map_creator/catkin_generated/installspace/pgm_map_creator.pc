@@ -1,4 +1,4 @@
-prefix=/home/workspace/WhereAmI/install
+prefix=/home/workspace/MapMyWorld/install
 
 Name: pgm_map_creator
 Description: Description of pgm_map_creator

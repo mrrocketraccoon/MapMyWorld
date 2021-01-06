@@ -67,14 +67,14 @@ set(my_robot_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(my_robot_SOURCE_PREFIX /home/workspace/WhereAmI/src/my_robot)
-  set(my_robot_DEVEL_PREFIX /home/workspace/WhereAmI/devel)
+  set(my_robot_SOURCE_PREFIX /home/workspace/MapMyWorld/src/my_robot)
+  set(my_robot_DEVEL_PREFIX /home/workspace/MapMyWorld/devel)
   set(my_robot_INSTALL_PREFIX "")
   set(my_robot_PREFIX ${my_robot_DEVEL_PREFIX})
 else()
   set(my_robot_SOURCE_PREFIX "")
   set(my_robot_DEVEL_PREFIX "")
-  set(my_robot_INSTALL_PREFIX /home/workspace/WhereAmI/install)
+  set(my_robot_INSTALL_PREFIX /home/workspace/MapMyWorld/install)
   set(my_robot_PREFIX ${my_robot_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/workspace/WhereAmI/install/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/workspace/MapMyWorld/install/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -7,10 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/workspace/WhereAmI/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/workspace/WhereAmI/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/workspace/WhereAmI/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD="/home/workspace/WhereAmI/build"
-export PYTHONPATH="/home/workspace/WhereAmI/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/workspace/WhereAmI/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/workspace/WhereAmI/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/workspace/MapMyWorld/devel:$CMAKE_PREFIX_PATH"
+export PWD="/home/workspace/MapMyWorld/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/workspace/MapMyWorld/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/workspace/MapMyWorld/src:$ROS_PACKAGE_PATH"

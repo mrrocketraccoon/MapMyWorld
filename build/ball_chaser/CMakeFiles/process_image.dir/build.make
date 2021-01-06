@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/workspace/WhereAmI/src
+CMAKE_SOURCE_DIR = /home/workspace/MapMyWorld/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/workspace/WhereAmI/build
+CMAKE_BINARY_DIR = /home/workspace/MapMyWorld/build
 
 # Include any dependencies generated for this target.
 include ball_chaser/CMakeFiles/process_image.dir/depend.make
@@ -58,17 +58,17 @@ include ball_chaser/CMakeFiles/process_image.dir/progress.make
 include ball_chaser/CMakeFiles/process_image.dir/flags.make
 
 ball_chaser/CMakeFiles/process_image.dir/src/process_image.cpp.o: ball_chaser/CMakeFiles/process_image.dir/flags.make
-ball_chaser/CMakeFiles/process_image.dir/src/process_image.cpp.o: /home/workspace/WhereAmI/src/ball_chaser/src/process_image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/WhereAmI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ball_chaser/CMakeFiles/process_image.dir/src/process_image.cpp.o"
-	cd /home/workspace/WhereAmI/build/ball_chaser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process_image.dir/src/process_image.cpp.o -c /home/workspace/WhereAmI/src/ball_chaser/src/process_image.cpp
+ball_chaser/CMakeFiles/process_image.dir/src/process_image.cpp.o: /home/workspace/MapMyWorld/src/ball_chaser/src/process_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/MapMyWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ball_chaser/CMakeFiles/process_image.dir/src/process_image.cpp.o"
+	cd /home/workspace/MapMyWorld/build/ball_chaser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process_image.dir/src/process_image.cpp.o -c /home/workspace/MapMyWorld/src/ball_chaser/src/process_image.cpp
 
 ball_chaser/CMakeFiles/process_image.dir/src/process_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process_image.dir/src/process_image.cpp.i"
-	cd /home/workspace/WhereAmI/build/ball_chaser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/workspace/WhereAmI/src/ball_chaser/src/process_image.cpp > CMakeFiles/process_image.dir/src/process_image.cpp.i
+	cd /home/workspace/MapMyWorld/build/ball_chaser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/workspace/MapMyWorld/src/ball_chaser/src/process_image.cpp > CMakeFiles/process_image.dir/src/process_image.cpp.i
 
 ball_chaser/CMakeFiles/process_image.dir/src/process_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process_image.dir/src/process_image.cpp.s"
-	cd /home/workspace/WhereAmI/build/ball_chaser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/WhereAmI/src/ball_chaser/src/process_image.cpp -o CMakeFiles/process_image.dir/src/process_image.cpp.s
+	cd /home/workspace/MapMyWorld/build/ball_chaser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/MapMyWorld/src/ball_chaser/src/process_image.cpp -o CMakeFiles/process_image.dir/src/process_image.cpp.s
 
 ball_chaser/CMakeFiles/process_image.dir/src/process_image.cpp.o.requires:
 
@@ -88,43 +88,43 @@ process_image_OBJECTS = \
 # External object files for target process_image
 process_image_EXTERNAL_OBJECTS =
 
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: ball_chaser/CMakeFiles/process_image.dir/src/process_image.cpp.o
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: ball_chaser/CMakeFiles/process_image.dir/build.make
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/libcontroller_manager.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/libroscpp.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/libclass_loader.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /usr/lib/libPocoFoundation.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/librosconsole.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/librostime.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/libcpp_common.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/libroslib.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/librospack.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/workspace/WhereAmI/devel/lib/ball_chaser/process_image: ball_chaser/CMakeFiles/process_image.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/workspace/WhereAmI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/workspace/WhereAmI/devel/lib/ball_chaser/process_image"
-	cd /home/workspace/WhereAmI/build/ball_chaser && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/process_image.dir/link.txt --verbose=$(VERBOSE)
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: ball_chaser/CMakeFiles/process_image.dir/src/process_image.cpp.o
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: ball_chaser/CMakeFiles/process_image.dir/build.make
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/libcontroller_manager.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/libroscpp.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/libclass_loader.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /usr/lib/libPocoFoundation.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/librosconsole.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/librostime.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/libcpp_common.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/libroslib.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /opt/ros/kinetic/lib/librospack.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image: ball_chaser/CMakeFiles/process_image.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/workspace/MapMyWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image"
+	cd /home/workspace/MapMyWorld/build/ball_chaser && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/process_image.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-ball_chaser/CMakeFiles/process_image.dir/build: /home/workspace/WhereAmI/devel/lib/ball_chaser/process_image
+ball_chaser/CMakeFiles/process_image.dir/build: /home/workspace/MapMyWorld/devel/lib/ball_chaser/process_image
 
 .PHONY : ball_chaser/CMakeFiles/process_image.dir/build
 
@@ -133,10 +133,10 @@ ball_chaser/CMakeFiles/process_image.dir/requires: ball_chaser/CMakeFiles/proces
 .PHONY : ball_chaser/CMakeFiles/process_image.dir/requires
 
 ball_chaser/CMakeFiles/process_image.dir/clean:
-	cd /home/workspace/WhereAmI/build/ball_chaser && $(CMAKE_COMMAND) -P CMakeFiles/process_image.dir/cmake_clean.cmake
+	cd /home/workspace/MapMyWorld/build/ball_chaser && $(CMAKE_COMMAND) -P CMakeFiles/process_image.dir/cmake_clean.cmake
 .PHONY : ball_chaser/CMakeFiles/process_image.dir/clean
 
 ball_chaser/CMakeFiles/process_image.dir/depend:
-	cd /home/workspace/WhereAmI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/WhereAmI/src /home/workspace/WhereAmI/src/ball_chaser /home/workspace/WhereAmI/build /home/workspace/WhereAmI/build/ball_chaser /home/workspace/WhereAmI/build/ball_chaser/CMakeFiles/process_image.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/MapMyWorld/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/MapMyWorld/src /home/workspace/MapMyWorld/src/ball_chaser /home/workspace/MapMyWorld/build /home/workspace/MapMyWorld/build/ball_chaser /home/workspace/MapMyWorld/build/ball_chaser/CMakeFiles/process_image.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ball_chaser/CMakeFiles/process_image.dir/depend
 
